@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,16 +7,168 @@
     <link rel="stylesheet" href="styles/gitPrac.css">
 </head>
 <body>
-    <div>
-        <h1>Git and GitHub Practice</h1>
-        <p>This is a practice file for Git and GitHub.</p>
-        <p>Make sure to commit your changes regularly!</p>
-        <p>Don't forget to push your changes to the remote repository.</p>
-        <p>Happy coding!</p>
-        <img class="imgStyle" src="images/photo-1623479322729-28b25c16b011.png" alt="">
-        <audio controls src="somewhere only we know (Gustixa & Rhianne).m4a"></audio>
-        <video loop controls width="500px" height="500px" src="Dont EXcuse.mp4"></video>
-        <video loop controls width="500px" height="500px" src="Whatever it takes.mp4"></video>
-    </div>
+    <header>
+        <h1>this is header section</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#form-section">form</a>
+                    <ul class="sub-menu">
+                        <li><a href="#form-section">Sub</a></li>
+                        <li><a href="#aside-section">aside</a></li>
+                        <li><a href="#aside-section2">aside2</a></li>
+                        <li><a href="#table-section">table</a></li>
+                        <li><a href="#footer-section">footer</a>
+                            <ul class="sub-menu">
+                                <li><a href="#form-section">Sub</a></li>
+                                <li><a href="#aside-section">aside</a></li>
+                                <li><a href="#aside-section2">aside2</a></li>
+                                <li><a href="#table-section">table</a></li>
+                                <li><a href="#footer-section">footer</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#aside-section">aside</a></li>
+                <li><a href="#aside-section2">aside2</a></li>
+                <li><a href="#table-section">table</a></li>
+                <li><a href="#footer-section">footer</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="form-section">
+            <h2>this is form section</h2>
+            <form action="submit.html" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="your name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="your email" name="email" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="your phone" name="phone" required>
+                <br>
+                <input type="submit" value="Submit">
+                <fieldset>
+                    <legend>Pick One pitha </legend>
+                    <input type="radio" id="chitoy" name="pitha" value="chitoy">
+                    <label for="pitha1">chitoy</label>
+                    <br>
+                    <input type="radio" id="vapa" name="pitha" value="vapa">
+                    <label for="pitha1">vapa</label>
+                    <br>
+                    <input type="radio" id="puri" name="pitha" value="puri">
+                    <label for="pitha1">puri</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Pick One Vhorta </legend>
+                    <input type="checkbox" id="shutki" name="vhorta" >
+                    <label for="pitha1">shutki</label>
+                    <br>
+                    <input type="checkbox" id="kochu" name="pitha" >
+                    <label for="pitha1">kochu</label>
+                    <br>
+                    <input type="checkbox" id="alu" name="pitha" >
+                    <label for="pitha1">alu</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Special instruction</legend>
+                    <textarea rows="10" cols="100" name="speacialInstruchtion" id="">Write your own.........</textarea>
+                </fieldset>
+            </form>
+        </section>
+        <section id="aside-section">
+            <aside>
+                <h2>this is aside section</h2>
+                <p>This is a practice file for Git and GitHub.</p>
+                <p>Make sure to commit your changes regularly!</p>
+                <p>Don't forget to push your changes to the remote repository.</p>
+                <p>Happy coding!</p>
+                <img class="imgStyle" src="images/photo-1623479322729-28b25c16b011.png" alt="">
+                <audio controls src="somewhere only we know (Gustixa & Rhianne).m4a"></audio>
+                <video loop controls width="500px" height="500px" src="Dont EXcuse.mp4"></video>
+                <video loop controls width="500px" height="500px" src="Whatever it takes.mp4"></video>
+            </aside>
+        </section>
+        <section id="aside-section2">
+            <aside>
+                <h2>this is aside section</h2>
+                <p>This is a practice file for Git and GitHub.</p>
+                <p>Make sure to commit your changes regularly!</p>
+                <p>Don't forget to push your changes to the remote repository.</p>
+                <p>Happy coding!</p>
+                <img class="imgStyle" src="images/photo-1623479322729-28b25c16b011.png" alt="">
+                <audio controls src="somewhere only we know (Gustixa & Rhianne).m4a"></audio>
+                <video loop controls width="500px" height="500px" src="Dont EXcuse.mp4"></video>
+                <video loop controls width="500px" height="500px" src="Whatever it takes.mp4"></video>
+            </aside>
+        </section>
+        <table id="table-section" style="padding: 50px 0;">
+            <caption>This is table section</caption>
+            <thead>
+                <tr>
+                    <th>No. </th>
+                    <th>Name</th>
+                    <th>Company</th>
+                    <th>Sallary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bill gates </td>
+                    <td>Microsoft</td>
+                    <td>$1000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Bill gates </td>
+                    <td>Microsoft</td>
+                    <td>$1000</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Bill gates </td>
+                    <td>Microsoft</td>
+                    <td>$1000</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Bill gates </td>
+                    <td>Microsoft</td>
+                    <td>$1000</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="">Total Employe : 4</td>
+                    <td colspan="2"></td>
+                    <td colspan="3" rowspan="2">Total Sallary: 3k$</td>
+                </tr>
+            </tfoot>
+        </table>
+        <footer id="footer-section">
+            <h2>this is footer section</h2>
+            <p>Thank you for visiting!</p>
+            <p><small>&copy; 2023 Your Name</small></p>
+        </footer>
+        <section id="UseOfEmmetAbbreviation">
+            <main>
+                <article class="blog">
+                    <h3></h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium expedita magnam sint sunt nesciunt, pariatur voluptatem facere reprehenderit temporibus amet vel molestiae unde exercitationem provident beatae non? Officia, praesentium nihil obcaecati ratione ullam neque nobis aut quidem autem dolores quaerat corrupti commodi, fugit exercitationem ducimus? Iure optio et dignissimos dolorum.</p>
+                </article>
+                <article class="blog">
+                    <h3></h3>
+                    <p>Exercitationem nesciunt quae laborum, expedita nemo sit repellendus recusandae ex ipsa iste distinctio excepturi modi ipsum sed omnis explicabo voluptate sequi molestiae? Necessitatibus repudiandae soluta praesentium harum, molestiae incidunt exercitationem nobis. Cumque eligendi cum explicabo porro cupiditate id possimus facilis repellat esse repudiandae? Eaque deleniti repellendus recusandae consequatur, adipisci similique.</p>
+                </article>
+                <article class="blog">
+                    <h3></h3>
+                    <p>Obcaecati earum unde harum eum ea veritatis soluta, quasi dolore dicta fugiat vero accusantium distinctio accusamus voluptates odio, ex temporibus laudantium et ipsam voluptatum dolor atque deleniti exercitationem? Dolorem quia autem atque quibusdam asperiores perferendis, itaque nam illum amet, minima voluptatem, aliquid eos modi voluptate dolore similique suscipit est! Earum.</p>
+                </article>
+            </main>
+        </section>
+    </main>
 </body>
 </html>
